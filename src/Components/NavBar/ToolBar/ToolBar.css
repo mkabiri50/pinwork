@@ -1,18 +1,35 @@
 .ToolBar {
+  position: fixed;
+  top:0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
   position: absolute;
   width: 100%;
   height: 72px;
-  left: calc(50% - 1440px / 2);
-  top: 0px;
+  z-index: 90;
+  box-sizing: border-box;
 
   background:white;
   /* Header Shadow */
 
   box-shadow: 2px 2px 2px rgba(210, 210, 210, 0.25);
 }
+/* .Toolbar {
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  background-color: #703B09;
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 90;
+  box-sizing: border-box;
+} */
 
 .NavigationItems {
   display: flex;
