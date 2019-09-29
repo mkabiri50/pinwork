@@ -5,9 +5,13 @@ import NavigationItem from './NavBarItem/NavBarItem';
 
 const navigationItemsL = (props) => (
     <ul className='NavigationItems'>
-            <NavigationItem link='/login'>کسب درامد</NavigationItem>
+        <NavigationItem link='/download' > دانلود اپلیکیشن</NavigationItem>
         <NavigationItem link='/login'>ثبت نام / ورود</NavigationItem>
-        <NavigationItem link='/download' > دانلود اپلیکیشن</NavigationItem> 
+        <NavigationItem link='/login'>
+            <p style={{textDecoration:'underline'}}>
+                    کسب درامد
+            </p>
+            </NavigationItem>
     </ul>
 
 );

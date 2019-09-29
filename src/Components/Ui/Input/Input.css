@@ -9,7 +9,7 @@
 }
 .InputElement{
     outline: none;
-    border: 1px solid #423d3d;
+    border: 2px solid #D2D2D2;
     background-color: #FFFFFF;
     font: inherit;
     padding:6px 10px;
@@ -17,7 +17,7 @@
     width: 424px;
     height: 48px;
     box-sizing: border-box;
-    margin:20px 32px;
+    margin:10px 32px;
     border-radius: 4px;
 }
 .InputElement:focus{
@@ -31,4 +31,5 @@
 .Type-1{
     width: 204px;
 height: 48px;
+margin:10px 10px;
 }

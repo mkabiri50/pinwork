@@ -2,7 +2,7 @@ import React from 'react';
 import Form from './Components/Form/Form';
 import Image from './assets/image/Webp.png'
 import ToolBar from './Components/NavBar/ToolBar/ToolBar';
-
+import Carts from './Components/CartPostal/Carts/Carts';
 // import Web from './Container/Wb';
 // import All from './Container/All';
 // import { Route, Switch, } from 'react-router-dom';
@@ -11,7 +11,7 @@ import './App.css';
 function App() {
   return (
 
-<div className="App">
+    <div className="App">
       <div style={{ marginTop: 60, fontSize: 32, left: 176, top: 144, position: 'absolute', left: 176, top: 44, fontWeight: 'bold', }}>
         <p style={{ fontSize: 32, fontWeight: 'bold' }}>
           از تخصص و مهادت خود کسب درامد کنید
@@ -30,28 +30,29 @@ function App() {
 
         <Form />
       </div>
+
       <div style={{
         position: 'absolute',
         width: '80%',
         textAlign: 'center',
         background: '#E5E5E5',
         top: 695,
-        height:'500',
-        width:'100%',
-        zIndex:-1
+        height: '500',
+        width: '100%',
+        zIndex: -1
       }}>
-        <p style={{ fontSize: 24, marginTop:120 }}>
+        <p style={{ fontSize: 24, marginTop: 120 }}>
           پین ورک چیست و در چه زمینه ای کار میکند؟
         </p>
-        <p style={{ fontSize: 16, paddingLeft:'10%',paddingRight:'10%'}}>
+        <p style={{ fontSize: 16, paddingLeft: '10%', paddingRight: '10%' }}>
           شده از مشتریان خود نظرسنجی میکند واز این طریق کوشش می کند تاهموتره بهترین خدمات کارواش و نظافت خود را برای مشتری خود به ارمغان بیاورد در زمینه صرفه جویی در مصرف آب بهینه شده اند و نسبت به کارواش سنتی آب مصرفی کمی نیاز دارند همچنین پین ورک پس از پایان هر سفارش وخدمات ارایه حضور در محلجالب است بدانید سرویس کارواش آنلاین
         </p>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
 
         </div >
-        <ui style = {{display:'flex', flexDirection:'column', alignItems:'center'}}>  
-          <li style={{display:'flex', flexDirection:'row', alignItems:'center'}}> 
-          <p>
+        <ui style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <li style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+            <p>
               کارواش آنلاین در زمینه صرفه جویی در مصرف آب بهینه
             </p>
             <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,8 +60,8 @@ function App() {
             </svg>
 
           </li>
-          <li style={{display:'flex', flexDirection:'row', alignItems:'center'}}> 
-          <p>
+          <li style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+            <p>
               کارواش آنلاین در زمینه صرفه جویی در مصرف آب بهینه
             </p>
             <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,8 +69,8 @@ function App() {
             </svg>
 
           </li>
-          <li style={{display:'flex', flexDirection:'row', alignItems:'center'}}> 
-          <p>
+          <li style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+            <p>
               کارواش آنلاین در زمینه صرفه جویی در مصرف آب بهینه
             </p>
             <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -77,8 +78,8 @@ function App() {
             </svg>
 
           </li>
-          <li style={{display:'flex', flexDirection:'row', alignItems:'center'}}> 
-          <p>
+          <li style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+            <p>
               کارواش آنلاین در زمینه صرفه جویی در مصرف آب بهینه
             </p>
             <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,13 +88,33 @@ function App() {
 
           </li>
         </ui>
+      </div>
+      <div style={{ backgroundColor: 'white', width: '100%', height: '500', position: 'relative', top: 1120, textAlign: 'center',}}>
+        <p style={{fontSize: 24, lineHeight: ' 200%'}}>
+          چرا کار در پین ورک مناسب شماست؟
+       </p>
+       <p>
+        تیییتی ححثبننب بنبنب بکه لازم است برای شرایت مئرد نیاز و کاربرد های متنوع با هدف بهبود شرایط کاربردی تیتتیینی نننیییمی ننینینینن ننیننیمم ننینینین ننینیین
+       </p>
+       <div Style={{margin:100 }}> 
+       <Carts />
+       </div>
+      
 
+      </div>
+      <div style={{ backgroundColor: '#E5E5E5;', width: '100%', height: '600', position: 'relative', top: 1120, textAlign: 'center' }}>
+        <p style={{fontSize: 24, lineHeight: ' 200%'}}>
+        مراحل ثبت نام در پین ورک ساده است
+       </p>
+       <p>
+         که لازم است برای شرایت مئرد نیاز و کاربرد های متنوع با هدف بهبود شرایط کاربردی تیتتیینی نننیییمی ننینینینن ننیننیمم ننینینین ننینیین
+       </p>
 
       </div>
 
     </div>
 
-    
+
   );
 }
 
