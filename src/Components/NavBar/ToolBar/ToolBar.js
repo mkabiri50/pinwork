@@ -1,16 +1,22 @@
 import React from 'react';
-
-import NavBarItemsR from '../NavBarItems/NavBarItems';
-
+import NavBarItemsR from '../NavBarItems/NavigationItemsR';
+import NavBarItemsl from '../NavBarItems/NavBarItemsL';
+import Logo from '../../Ui/logo/logo';
 import './ToolBar.css';
 
 const ToolBar = (props) => {
 
     return (
-        <div className='Toolbar'>
-            <nav className="DesktopOnly">
-            <NavBarItemsR color={props.color} />
-            </nav>
+        <div className='ToolBar'>
+               <div className='NavBarItemsR'>
+            <NavBarItemsl />
+         
+            </div>
+            <div className='NavBarItemsR'>
+            <NavBarItemsR  />
+            <Logo />
+            </div> 
+         
         </div>
     );
 

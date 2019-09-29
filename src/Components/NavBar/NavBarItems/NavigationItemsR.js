@@ -1,13 +1,13 @@
 import React from 'react';
-import './NavigationItems.css';
-import NavigationItem from './NavigationItem/NavigationItem';
+import './NavBarItemsR.css';
+import NavigationItem from './NavBarItem/NavBarItem';
 
 
-const navigationItems = (props) => (
+const navigationItemsR = (props) => (
     <ul className='NavigationItems'>
         <NavigationItem link='/Web' exact={props.exact}> وبلاگ</NavigationItem>
         <NavigationItem link='/All' > همه خدمات </NavigationItem> 
     </ul>
 
 );
-export default navigationItems;
+export default navigationItemsR;
