@@ -26,11 +26,14 @@ function App() {
 
 
       <ToolBar />
-
+{/* 
       <div style={{ marginBottom: 50, height: '100%' }}>
         <img className='BackImage' src={Image} alt='image' />
 
         <Form />
+      </div> */}
+      <div className='BackImage'> 
+      <Form />
       </div>
 
       <div style={{
@@ -38,8 +41,8 @@ function App() {
         width: '80%',
         textAlign: 'center',
         background: " #E5E5E5",
-        top: 695,
-        height: '500',
+        top: 675,
+        height: 500,
         width: '100%',
         zIndex: -1
       }}>
@@ -49,7 +52,7 @@ function App() {
         <p style={{ fontSize: 16, paddingLeft: '10%', paddingRight: '10%' }}>
           شده از مشتریان خود نظرسنجی میکند واز این طریق کوشش می کند تاهموتره بهترین خدمات کارواش و نظافت خود را برای مشتری خود به ارمغان بیاورد در زمینه صرفه جویی در مصرف آب بهینه شده اند و نسبت به کارواش سنتی آب مصرفی کمی نیاز دارند همچنین پین ورک پس از پایان هر سفارش وخدمات ارایه حضور در محلجالب است بدانید سرویس کارواش آنلاین
         </p>
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
 
         </div >
         <ui style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -91,7 +94,7 @@ function App() {
           </li>
         </ui>
       </div>
-      <div style={{ backgroundColor: 'white', width: '100%', height: '500', position: 'relative', top: 1120, textAlign: 'center', margin: 25 }}>
+      <div style={{ backgroundColor: 'white', width: '100%', height: '500', position: 'relative', top: 1100, textAlign: 'center', margin: 25 }}>
         <p style={{ fontSize: 24, lineHeight: ' 200%' }}>
           چرا کار در پین ورک مناسب شماست؟
        </p>
@@ -104,7 +107,7 @@ function App() {
 
 
       </div>
-      <div style={{ background: " #E5E5E5", width: '100%', height: '600', position: 'relative', top: 1120, textAlign: 'center' }}>
+      <div style={{ background: " #E5E5E5", width: '100%', height: 500, position: 'relative', top: 1120, textAlign: 'center' }}>
         <p style={{ fontSize: 24, lineHeight: ' 200%' }}>
           مراحل ثبت نام در پین ورک ساده است
        </p>
@@ -131,7 +134,7 @@ function App() {
 
         </div>
 
-        <div style={{ backgroundColor: 'white', width: '100%', height: '500', position: 'relative', top: 150, textAlign: 'center', }}>
+        <div style={{ backgroundColor: 'white', width: '100%', height:500, position: 'relative', top: 200, textAlign: 'center', }}>
           <p style={{ fontSize: 24, lineHeight: ' 200%' }}>
             چرا کار در پین ورک مناسب شماست؟
        </p>
@@ -144,7 +147,7 @@ function App() {
         </div>
 
 
-        <div style={{ckground: '#E5E5E5', width: '100%', height: '500', position: 'relative', top: 150,  }}>
+        <div style={{backgroundColor: '#E5E5E5', width: '100%', height:500, position: 'relative', top:100, marginTop:40 }}>
         <div style={{  display: 'flex', flexDirection:'row',justifyContent:'center'}}>
         <img  src={DlImage} alt='image' />
           <div style={{ display: 'flex', flexDirection: 'column',height:'100%', width:'40%',paddingTop:100 ,paddingRight:100 }}>

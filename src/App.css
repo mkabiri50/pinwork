@@ -12,10 +12,14 @@ flex-direction: column;
 } 
 .BackImage {
   position: absolute;
-  width:"100%%";
+  width:100%;
   height: 432px;
   left: 0px;
   top: 264px;
+  background-image: url('./assets/image/Webp.png');
+  background-repeat: no-repeat; 
+  background-size: contain ;
+  margin-bottom: 50;
 }
 .list{
   list-style-type: disc;
