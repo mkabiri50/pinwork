@@ -5,7 +5,7 @@
   outline: none;
   cursor: pointer;
   font: inherit;
-padding: 15px 0;
+padding: 15px 10px;
 
   font-weight: bold;
   text-align: center;
@@ -31,4 +31,28 @@ padding: 15px 0;
 .info {
   background-color: #00bcd4;
   text-align: center;
+}
+.apple{
+  background: #607D8B;
+  background-image: url('../../../assets/buttom/ios.png');
+ 
+  background-position: left;
+  height:48px;
+  width: 213px;
+  background-repeat: no-repeat; 
+  background-size: contain ;
+  text-align: right;
+
+}
+.android{
+  background-color: #85C02B;
+  background-image: url('../../../assets/buttom/android.png');
+  background-position: left;
+  height:48px;
+  width: 213px;
+
+  background-repeat: no-repeat; 
+  background-size: contain ;
+  text-align: right;
+  margin:20px 24px;
 }

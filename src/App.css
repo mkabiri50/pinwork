@@ -17,3 +17,6 @@ flex-direction: column;
   left: 0px;
   top: 264px;
 }
+.list{
+  list-style-type: disc;
+}

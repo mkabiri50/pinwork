@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Carts.css'
-import Cart from './Cart/Cart'
-import data from '../../../assets/json/data.json'
+import './Scs.css';
+import Sc from './Sc/Sc';
+import data from '../../../assets/json/profileData.json'
 
 class Carts extends Component{
     render(){
@@ -11,18 +11,21 @@ class Carts extends Component{
       });
         const cartData =(
             data.map(p => (
-                <Cart 
+                <Sc 
                 key={p.id}
-                title={p.title}           
+                name={p.name} 
                 image={p.image}
-                content={p.content}  />
-           
-         
-        )));  
+                content={p.content} 
+                rating={p.rating} />
+        )));
+        
+        
+    
         return(
             <div className='Cartss'>  
                  {cartData}
-            </div>     
+            </div>
+           
         )
     }
 }

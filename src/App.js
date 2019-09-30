@@ -3,9 +3,11 @@ import Form from './Components/Form/Form';
 import Image from './assets/image/Webp.png'
 import ToolBar from './Components/NavBar/ToolBar/ToolBar';
 import Carts from './Components/CartPostal/Carts/Carts';
-// import Web from './Container/Wb';
-// import All from './Container/All';
-// import { Route, Switch, } from 'react-router-dom';
+import Scs from './Components/StuffCarts/Scs/Scs';
+import Buttom from './Components/Ui/Button/Button';
+import DlImage from './assets/image/download.png'
+
+
 import './App.css';
 
 function App() {
@@ -35,7 +37,7 @@ function App() {
         position: 'absolute',
         width: '80%',
         textAlign: 'center',
-        background: '#E5E5E5',
+        background: " #E5E5E5",
         top: 695,
         height: '500',
         width: '100%',
@@ -89,26 +91,90 @@ function App() {
           </li>
         </ui>
       </div>
-      <div style={{ backgroundColor: 'white', width: '100%', height: '500', position: 'relative', top: 1120, textAlign: 'center',}}>
-        <p style={{fontSize: 24, lineHeight: ' 200%'}}>
+      <div style={{ backgroundColor: 'white', width: '100%', height: '500', position: 'relative', top: 1120, textAlign: 'center', margin: 25 }}>
+        <p style={{ fontSize: 24, lineHeight: ' 200%' }}>
           چرا کار در پین ورک مناسب شماست؟
        </p>
-       <p>
-        تیییتی ححثبننب بنبنب بکه لازم است برای شرایت مئرد نیاز و کاربرد های متنوع با هدف بهبود شرایط کاربردی تیتتیینی نننیییمی ننینینینن ننیننیمم ننینینین ننینیین
+        <p>
+          تیییتی ححثبننب بنبنب بکه لازم است برای شرایت مئرد نیاز و کاربرد های متنوع با هدف بهبود شرایط کاربردی تیتتیینی نننیییمی ننینینینن ننیننیمم ننینینین ننینیین
        </p>
-       <div Style={{margin:100 }}> 
-       <Carts />
-       </div>
-      
+        <div Style={{ margin: 100 }}>
+          <Carts />
+        </div>
+
 
       </div>
-      <div style={{ backgroundColor: '#E5E5E5;', width: '100%', height: '600', position: 'relative', top: 1120, textAlign: 'center' }}>
-        <p style={{fontSize: 24, lineHeight: ' 200%'}}>
-        مراحل ثبت نام در پین ورک ساده است
+      <div style={{ background: " #E5E5E5", width: '100%', height: '600', position: 'relative', top: 1120, textAlign: 'center' }}>
+        <p style={{ fontSize: 24, lineHeight: ' 200%' }}>
+          مراحل ثبت نام در پین ورک ساده است
        </p>
-       <p>
-         که لازم است برای شرایت مئرد نیاز و کاربرد های متنوع با هدف بهبود شرایط کاربردی تیتتیینی نننیییمی ننینینینن ننیننیمم ننینینین ننینیین
+        <p>
+          که لازم است برای شرایت مئرد نیاز و کاربرد های متنوع با هدف بهبود شرایط کاربردی تیتتیینی نننیییمی ننینینینن ننیننیمم ننینینین ننینیین
        </p>
+        <div dir="rtl" style={{ display: 'flex', flexDirection: 'row ', justifyContent: 'space-around' }}>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <p>1-تحویل مدارک</p>
+            <ul style={{ listStyleType: ' disc' }}>
+              <li>کپی شناسنامه</li>
+              <li>عکس</li>
+              <li>(کارت مهارت (به جز برتی متقاضیان خدمات نظافتی</li>
+              <li>کپی اجاره نامه یا سند خانه</li>
+              <li>قبض آب برق گاز یا تلفن</li>
+              <li>شماره حساب شبا به اسم خودتان</li>
+              <li>استعلام سو پیشینه</li>
+            </ul>
+          </div>
+          <div>
+            <p>2-حضور در کلاس های اموزشی</p>
+            <p>متقاضی خدمات نظافتی فقط روز های زوج </p>
+          </div>
+
+        </div>
+
+        <div style={{ backgroundColor: 'white', width: '100%', height: '500', position: 'relative', top: 150, textAlign: 'center', }}>
+          <p style={{ fontSize: 24, lineHeight: ' 200%' }}>
+            چرا کار در پین ورک مناسب شماست؟
+       </p>
+          <p>
+            تیییتی ححثبننب بنبنب بکه لازم است برای شرایت مئرد نیاز و کاربرد های متنوع با هدف بهبود شرایط کاربردی تیتتیینی نننیییمی ننینینینن ننیننیمم ننینینین ننینیین
+       </p>
+          <div Style={{ margin: 100 }}>
+            <Scs />
+          </div>
+        </div>
+
+
+        <div style={{ckground: '#E5E5E5', width: '100%', height: '500', position: 'relative', top: 150,  }}>
+        <div style={{  display: 'flex', flexDirection:'row',justifyContent:'center'}}>
+        <img  src={DlImage} alt='image' />
+          <div style={{ display: 'flex', flexDirection: 'column',height:'100%', width:'40%',paddingTop:100 ,paddingRight:100 }}>
+           <div>
+              <p style={{ fontSize: 24, lineHeight: ' 200%', }}>
+                پین ورک را دانلود کنید
+             </p>
+              <div >
+                <p style={{ fontSize: 16, lineHeight: ' 200%', }}>
+                  تیییتی ححثبننب بنبنب بکه لازم است برای شرایت مئرد نیاز و کاربرد های متنوع با هدف بهبود شرایط کاربردی تیتتیینی نننیییمی ننینینینن ننیننیمم ننینینین ننینیین
+             </p>
+              </div>
+          <div>
+            
+          </div>
+              <Buttom btnType='apple'> ios دانلود نسخه  </Buttom>
+              <Buttom btnType='android'> ios دانلود نسخه  </Buttom>
+            </div>
+
+          </div>
+       
+        </div>
+        <div>
+           
+            </div>
+
+        </div>
+
+
+
 
       </div>
 
