@@ -6,7 +6,7 @@
   /* OMG */
 
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .Imoji {
   width: 60px;
@@ -25,7 +25,9 @@
 }
 
 .Content {
-  margin: 32px 24px;
+margin: 0 24px;
+  color: rgba(0, 0, 0, 0.64);
+  line-height: 170%;
   text-align: center;
   font-size: 12px;
   font-weight: bold;
