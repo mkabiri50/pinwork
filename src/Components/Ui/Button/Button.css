@@ -1,11 +1,12 @@
 .Button {
+  box-sizing: border-box;
   width: 190px;
   border: none;
   color: white;
   outline: none;
   cursor: pointer;
   font: inherit;
-padding: 15px 10px;
+  padding: 10px 24px 10px 24px;
 
   font-weight: bold;
   text-align: center;
@@ -56,3 +57,4 @@ padding: 15px 10px;
   text-align: right;
   margin:20px 24px;
 }
+

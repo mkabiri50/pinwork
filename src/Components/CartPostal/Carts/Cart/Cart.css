@@ -34,4 +34,6 @@ color: rgba(0, 0, 0, 0.72);
     font-size: x-small;
     font-weight: bold;
     position: relative;
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 12px;
   }

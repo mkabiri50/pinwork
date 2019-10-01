@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Select from 'react-select';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Input from '../Ui/Input/Input'
 import Buttom from '../Ui/Button/Button'
 import './Form.css';
@@ -89,32 +88,7 @@ class Form extends Component {
                 valid: false,
                 touched: false
             },
-            // city: {
-            //     elementType: 'input',
-            //     elementConfig: {
-            //         type: 'text',
-            //         placeholder: 'شهر محل سکونت '
-            //     },
-            //     value: '',
-            //     validation: {
-            //         required: true
-            //     },
-            //     valid: false,
-            //     touched: false
-            // },
-            // experties: {
-            //     elementType: 'input',
-            //     elementConfig: {
-            //         type: 'text',
-            //         placeholder: 'منخصص چه کاری هستید '
-            //     },
-            //     value: '',
-            //     validation: {
-            //         required: true
-            //     },
-            //     valid: false,
-            //     touched: false
-            // },
+
             formIsValid: false
         }
     }
@@ -162,14 +136,7 @@ class Form extends Component {
     }
 
     render() {
-        // const expertise = [
-        //     { label: this.state.submitform.experties.elementConfig.options., value: 1 },
-        //     { label: "Facebook", value: 2 },
-        //     { label: "Netflix", value: 3 },
-        //     { label: "Tesla", value: 4 },
-        //     { label: "Amazon", value: 5 },
-        //     { label: "Alphabet", value: 6 },
-        //   ];
+
         const expertise = this.state.submitform.experties.elementConfig.options
 
         const city = this.state.submitform.city.elementConfig.options
@@ -191,10 +158,9 @@ class Form extends Component {
                     رایگان ثبت نام کنید
                 </h1>
                 <div>
-                    
+
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginLeft: 10., marginRight: 10, alignContent: 'flex-start', }}>
-
                     <Input
                         style='Type-1'
                         elementType={this.state.submitform.name.elementType}
@@ -206,29 +172,25 @@ class Form extends Component {
                         placeholder={this.state.submitform.name.elementConfig.placeholder}
                         changed={(event) => this.inputChangedHandler(event, 'name')}
                     />
+                    <Input
+                        style='Type-1'
+                        elementType={this.state.submitform.family.elementType}
+                        elementConfig={this.state.submitform.family.elementConfig}
+                        value={this.state.submitform.family.value}
+                        invalid={this.state.submitform.family.valid}
+                        shouldValidation={this.state.submitform.family.validation}
+                        touched={this.state.submitform.family.touched}
+                        placeholder={this.state.submitform.family.elementConfig.placeholder}
+                        changed={(event) => this.inputChangedHandler(event, 'family')}
+                    />
 
-                    <div >
-                        <Input
-                            style='Type-1'
-                            elementType={this.state.submitform.family.elementType}
-                            elementConfig={this.state.submitform.family.elementConfig}
-                            value={this.state.submitform.family.value}
-                            invalid={this.state.submitform.family.valid}
-                            shouldValidation={this.state.submitform.family.validation}
-                            touched={this.state.submitform.family.touched}
-                            placeholder={this.state.submitform.family.elementConfig.placeholder}
-                            changed={(event) => this.inputChangedHandler(event, 'family')}
-                        />
-                    </div>
                 </div>
 
 
                 <div style={{
                     display: 'flex', flexDirection: 'column', alignItems: 'center',
                 }}>
-
                     <Input
-
                         elementType={this.state.submitform.phone.elementType}
                         elementConfig={this.state.submitform.phone.elementConfig}
                         value={this.state.submitform.phone.value}
@@ -238,9 +200,8 @@ class Form extends Component {
                         placeholder={this.state.submitform.phone.elementConfig.placeholder}
                         changed={(event) => this.inputChangedHandler(event, 'phone')}
                     />
-
-
-                    <div className="container">
+                    
+               
                         <div className="col-md-12">
                             <Select styles={customStyles} options={city}
                                 placeholder={this.state.submitform.city.elementConfig.placeholder} />
@@ -251,9 +212,9 @@ class Form extends Component {
                         </div>
 
 
-                    </div>
+               
 
-                    <div style={{ padding: 20 }}>
+                    <div style={{ padding: 20, paddingTop:100, paddingBottom:0 }}>
                         <Input
                             elementType={this.state.submitform.introduce.elementType}
                             elementConfig={this.state.submitform.introduce.elementConfig}
@@ -266,7 +227,8 @@ class Form extends Component {
                         />
 
                     </div>
-                    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingRight:30 , paddingLeft:32 , marginTop:20}}>
+
+                    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', paddingRight: 30, paddingLeft: 32 }}>
                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11C20 6.02944 15.9706 2 11 2ZM0 11C0 4.92487 4.92487 0 11 0C17.0751 0 22 4.92487 22 11C22 17.0751 17.0751 22 11 22C4.92487 22 0 17.0751 0 11Z" fill="#0088D4" />
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M11 10C11.5523 10 12 10.4477 12 11V15C12 15.5523 11.5523 16 11 16C10.4477 16 10 15.5523 10 15V11C10 10.4477 10.4477 10 11 10Z" fill="#0088D4" />

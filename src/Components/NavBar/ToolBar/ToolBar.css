@@ -16,32 +16,34 @@
 
   box-shadow: 2px 2px 2px rgba(210, 210, 210, 0.25);
 }
-/* .Toolbar {
-  height: 56px;
-  width: 100%;
-  position: fixed;
-  top:0;
-  left: 0;
-  background-color: #703B09;
-  display: flex;
-  justify-content:space-between ;
-  align-items: center;
-  padding: 0 20px;
-  z-index: 90;
-  box-sizing: border-box;
-} */
 
 .NavigationItems {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  width:100%;
+  margin: 0
+  
 }
+/* .NavBarItemsR{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.NavBarItemsR{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} */
+
 .Toolbar nav {
   position: absolute;
   width: 148px;
   height: 24px;
   left: 1020px;
   top: 24px;
+  margin:0
 }
 .Logo {
   position: absolute;
@@ -49,4 +51,15 @@
   left: 85%;
   right: 7.78%;
   top: 6px;
+}
+.Badge{
+  position: relative;
+  top:-20px;
+  left: -450px;
+
+}
+.Line{
+  position: relative;
+  top:10px;
+  left: -400px;
 }

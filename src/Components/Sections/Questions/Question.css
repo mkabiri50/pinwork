@@ -1,0 +1,29 @@
+.Qcontent{
+    margin: 24px 240px;
+}
+.QuestionBtn{
+    background-color:#fff;
+    height:48px;
+    width: 800px;
+    border-left: none;
+    border-right: none;
+    border-top:  1px solid rgba(210, 210, 210, 0.64);
+   border-bottom:   1px solid rgba(210, 210, 210, 0.64);
+
+    color:black;
+    text-align: center;
+}
+.backDownImage{
+    background-image: url('../../../assets/buttom/down.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-position: center left;
+    text-align: right;
+}
+.backDropImage{
+    background-image: url('../../../assets/buttom/drop.png');
+    
+  background-repeat: no-repeat; 
+  background-position: center left;
+  text-align: right;
+}

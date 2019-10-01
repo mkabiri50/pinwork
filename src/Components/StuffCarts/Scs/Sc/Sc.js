@@ -32,8 +32,8 @@ const Cart = (props) => {
                     <div className='Name'>{props.name}</div>
                     {star}
                     <div className='Hour'>
-                        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', margin :5 }}>
-                            <p style={{ fontSize: 12, color: ' #85C02B' , marginBottom:0}}>
+                        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', margin :2 }}>
+                            <p style={{ fontSize: 12, color: ' #85C02B' , marginBottom:10}}>
                                 28 کار انجام شده
                             </p>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

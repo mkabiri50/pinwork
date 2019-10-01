@@ -1,7 +1,23 @@
+@font-face {
+  font-family: IRANSans;
+  font-weight: 300;
+  font-style: normal;
+  src: url("./assets/fonts/iran-sans/eot/IRANSansWeb_Light.eot");
+  src: url("./assets/fonts/iran-sans/eot/IRANSansWeb_Light.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/iran-sans/woff/IRANSansWeb_Light.woff") format("woff"), url("./assets/fonts/iran-sans/woff2/IRANSansWeb_Light.woff2") format("woff2"), url("./assets/fonts/iran-sans/ttf/IRANSansWeb_Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-weight: 500;
+  font-style: normal;
+  src: url("./assets/fonts/iran-sans/eot/IRANSansWeb_Medium.eot");
+  src: url("./assets/fonts/iran-sans/eot/IRANSansWeb_Medium.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/iran-sans/woff/IRANSansWeb_Medium.woff") format("woff"), url("./assets/fonts/iran-sans/woff2/IRANSansWeb_Medium.woff2") format("woff2"), url("./assets/fonts/iran-sans/ttf/IRANSansWeb_Medium.ttf") format("truetype");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue","IRANSansFaNum",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
