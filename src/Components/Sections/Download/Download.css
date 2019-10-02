@@ -1,0 +1,11 @@
+.DlContainer {
+  display: flex;
+  flex-direction: row;
+
+  width: 100px;
+  height: 500px;
+
+  justify-content: center;
+  padding: 10px 50px 80px 50px;
+
+}

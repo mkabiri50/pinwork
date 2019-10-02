@@ -27,8 +27,8 @@ const Cart = (props) => {
     return (
 
         <div className='Cart'>
-            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around' }}>
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', justifyContent: 'space-between' , alignContent: 'flex-end'}}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', justifyContent: 'space-between' , alignContent: 'flex-end', position:'relative',left:15}}>
                     <div className='Name'>{props.name}</div>
                     {star}
                     <div className='Hour'>

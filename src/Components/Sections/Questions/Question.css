@@ -24,8 +24,10 @@ text-align: center
     border-right: none;
     border-top:  none;
    border-bottom:   1px solid rgba(210, 210, 210, 0.64);
+
     color:black;
     text-align: center;
+
 }
 button.launch{
     border:none;
