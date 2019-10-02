@@ -15,9 +15,9 @@ function App() {
   return (
     <div className="App">
       <ToolBar />
-      <div style={{ marginTop: 60, position: 'relative', right: 300, top: 80 }}>
-        <p style={{ fontSize: 32, fontWeight: 'bold', lineHeight: '130%' }}> از تخصص و مهارت خود کسب درامد کنید </p>
-        <p style={{ fontSize: 18, textAlign: 'right', lineHeight: '120%' }}>  با امکان کسب دامد بیش از سی ملیون ریال در ماه</p>
+      <div style={{ marginTop: 60, position: 'relative', right:320, top: 90 }}>
+        <p style={{ fontSize: 32, fontWeight: 'bold', lineHeight: '130%', margin:24 }}> از تخصص و مهارت خود کسب درامد کنید </p>
+        <p style={{ fontSize: 18, textAlign: 'right', lineHeight: '120%', margin:24 }}>  با امکان کسب دامد بیش از سی ملیون ریال در ماه</p>
       </div>
       <What />
       <Why />

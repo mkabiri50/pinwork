@@ -41,6 +41,7 @@
   height:48px;
   width: 213px;
   background-repeat: no-repeat; 
+  background-position-y: 5px;
   background-size: contain ;
   text-align: right;
 
@@ -54,7 +55,14 @@
 
   background-repeat: no-repeat; 
   background-size: contain ;
+  background-position-y: 10px;
   text-align: right;
   margin:20px 24px;
+}
+.android:hover{
+  background-position-y: 5px;
+}
+.apple:hover{
+  background-position-y: 0px;
 }
 

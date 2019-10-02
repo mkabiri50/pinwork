@@ -8,7 +8,7 @@ const What = () => {
         <Form />
       </div>
       <div  className= 'PinWhat' >
-        <p style={{ fontSize: 24, marginTop: 140, fontWeight: 'bold' }}>
+        <p style={{ fontSize: 24, marginTop: 204, fontWeight: 'bold' }}>
           پین ورک چیست و در چه زمینه ای کار میکند؟
           </p>
         <p style={{ fontSize: 16, paddingLeft: '10%', paddingRight: '10%'}}>
@@ -16,8 +16,8 @@ const What = () => {
             </p>
 
 
-        <ui style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', paddingRight: 300, }}>
-          <li style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+        <ul>
+          <li >
             <p>
               کارواش آنلاین در زمینه صرفه جویی در مصرف آب بهینه
                 </p>
@@ -26,7 +26,7 @@ const What = () => {
             </svg>
 
           </li>
-          <li style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+          <li >
             <p>
               کارواش آنلاین در زمینه صرفه جویی در مصرف آب بهینه
                 </p>
@@ -35,7 +35,7 @@ const What = () => {
             </svg>
 
           </li>
-          <li style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+          <li >
             <p>
               کارواش آنلاین در زمینه صرفه جویی در مصرف آب بهینه
                 </p>
@@ -44,7 +44,7 @@ const What = () => {
             </svg>
 
           </li>
-          <li style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+          <li >
             <p>
               کارواش آنلاین در زمینه صرفه جویی در مصرف آب بهینه
                 </p>
@@ -53,7 +53,7 @@ const What = () => {
             </svg>
 
           </li>
-        </ui>
+        </ul>
       </div>
     </div>
 

@@ -41,9 +41,15 @@ class Question extends Component {
 
     render() {
         let backBtnImage = 'backDownImage'
-        if (this.state.show) {
-            backBtnImage = 'backDropImage'
+        const q=this.state
+        for (let key in q){
+            console.log(key)
+            if (key.show) {
+                backBtnImage = 'backDropImage'
+            }
         }
+      
+      
         return (
             <div>
                 <div className='Qcontainer '>

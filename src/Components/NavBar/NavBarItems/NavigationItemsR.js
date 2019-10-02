@@ -4,7 +4,7 @@ import NavigationItem from './NavBarItem/NavBarItem';
 
 
 const navigationItemsR = (props) => (
-    <ul className='NavigationItems'>
+    <ul className='Right'>
         <NavigationItem link='/Web' exact={props.exact}> وبلاگ</NavigationItem>
         <NavigationItem link='/All' > همه خدمات </NavigationItem> 
     </ul>

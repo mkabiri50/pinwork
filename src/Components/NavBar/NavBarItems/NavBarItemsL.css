@@ -1,5 +1,16 @@
-.Red{
-    position: relative;
-    top:5px;
-    left:15px;
+
+.Badge{
+    position: absolute;
+   top:10px;
+  left:25%;
+  
+  }
+  .Line{
+    position: absolute;
+    top:45px;
+    left: 35%;
+  }
+.Left{
+    display:flex;
+    flex-direction: row;
 }
