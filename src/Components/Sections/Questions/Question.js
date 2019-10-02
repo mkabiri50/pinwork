@@ -9,16 +9,19 @@ class Question extends Component {
             question: 'سوال اول: سلام حالت چطوره؟',
             answer: 'تیتیتی یی تیهی هیتهی یتهتیه یتهیتهی یهتیه یهیهتی هتهیتهی یهتیهی هی یی ی یی ی ییی یییی ییی یییی ی ',
             show: false,
+            backBtnImage :'backDownImage'
         },
         q2: {
             question: 'سوال دوم : آب حوضم خالی میکنید؟',
             answer: 'تیتیتی یی تیهی هیتهی یتهتیه یتهیتهی یهتیه یهیهتی هتهیتهی یهتیهی ییی ی  ی ی ی یی ی یی ی  یییی یییی یییی یییی یییی یییی ییی  ییی یییی یییی یییی ییی هی یی ی یی ی ییی یییی ییی یییی ی ',
             show: false,
+            backBtnImage :'backDownImage'
         },
         q3: {
             question: 'سوالات متداول کارواش سیار در محل',
             answer: 'تیتیتی یی تیهی هیتهی یتهتیه یتهیتهی یهتیه یهیهتی هتهیتهی یهتیهی هی یی ی یی ی ییی یییی ییی یییی ی ',
             show: false,
+            backBtnImage :'backDownImage'
         }
 
     }
@@ -30,7 +33,8 @@ class Question extends Component {
 
                 [key]: {
                     ...preveState[key],
-                    show: !preveState[key].show
+                    show: !preveState[key].show,
+                    backBtnImage:backBtnImage
                 }
             }
 
@@ -40,15 +44,16 @@ class Question extends Component {
     }
 
     render() {
-        let backBtnImage = 'backDownImage'
-        const q=this.state
-        for (let key in q){
-            console.log(key)
-            if (key.show) {
-                backBtnImage = 'backDropImage'
-            }
-        }
-      
+
+        
+    //     const q=this.state
+    //   console.log(q,'mapQ')
+    //   const mapq = q.map(i=>{
+    //       return i.show
+    //   })
+    //   if (mapq){
+    //     backBtnImage='backBtnImage'
+    //   }
       
         return (
             <div>

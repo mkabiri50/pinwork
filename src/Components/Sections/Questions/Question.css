@@ -34,7 +34,7 @@ text-align: center
     background-position: center left;
     text-align: right;
 }
-.backDropImage{
+.backBtnImage{
     background-image: url('../../../assets/buttom/drop.png');
     
   background-repeat: no-repeat; 
