@@ -22,22 +22,19 @@ text-align: center
     width: 800px;
     border-left: none;
     border-right: none;
-    border-top:  1px solid rgba(210, 210, 210, 0.64);
+    border-top:  none;
    border-bottom:   1px solid rgba(210, 210, 210, 0.64);
     color:black;
     text-align: center;
 }
-.backDownImage{
-    background-image: url('../../../assets/buttom/down.png');
-    background-repeat: no-repeat; 
-    background-position: center;
-    background-position: center left;
-    text-align: right;
+button.launch{
+    border:none;
 }
-.backBtnImage{
-    background-image: url('../../../assets/buttom/drop.png');
-    
-  background-repeat: no-repeat; 
-  background-position: center left;
-  text-align: right;
+button.change.change{
+    border:none;
 }
+button:active {
+    outline: none;
+    border: none;
+    }
+    button:focus {outline:0;}

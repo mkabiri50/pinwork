@@ -1,27 +1,27 @@
 
 import React, { Component } from 'react';
-import ToggleDisplay from 'react-toggle-display';
 import './Question.css';
 import Buttom from '../../Ui/Button/Button';
+import Que from '../../Que/Que';
 class Question extends Component {
     state = {
         q1: {
             question: 'سوال اول: سلام حالت چطوره؟',
             answer: 'تیتیتی یی تیهی هیتهی یتهتیه یتهیتهی یهتیه یهیهتی هتهیتهی یهتیهی هی یی ی یی ی ییی یییی ییی یییی ی ',
             show: false,
-            backBtnImage :'backDownImage'
+
         },
         q2: {
             question: 'سوال دوم : آب حوضم خالی میکنید؟',
             answer: 'تیتیتی یی تیهی هیتهی یتهتیه یتهیتهی یهتیه یهیهتی هتهیتهی یهتیهی ییی ی  ی ی ی یی ی یی ی  یییی یییی یییی یییی یییی یییی ییی  ییی یییی یییی یییی ییی هی یی ی یی ی ییی یییی ییی یییی ی ',
             show: false,
-            backBtnImage :'backDownImage'
+
         },
         q3: {
             question: 'سوالات متداول کارواش سیار در محل',
             answer: 'تیتیتی یی تیهی هیتهی یتهتیه یتهیتهی یهتیه یهیهتی هتهیتهی یهتیهی هی یی ی یی ی ییی یییی ییی یییی ی ',
             show: false,
-            backBtnImage :'backDownImage'
+
         }
 
     }
@@ -33,8 +33,8 @@ class Question extends Component {
 
                 [key]: {
                     ...preveState[key],
-                    show: !preveState[key].show,
-                    backBtnImage:backBtnImage
+                    show: !preveState[key].show
+
                 }
             }
 
@@ -45,50 +45,39 @@ class Question extends Component {
 
     render() {
 
-        
-    //     const q=this.state
-    //   console.log(q,'mapQ')
-    //   const mapq = q.map(i=>{
-    //       return i.show
-    //   })
-    //   if (mapq){
-    //     backBtnImage='backBtnImage'
-    //   }
-      
+
         return (
-            <div>
-                <div className='Qcontainer '>
 
-                    <p style={{ fontSize: 24, fontWeight: 'bold' }}>سوالات متداول کارواش سیار در محل</p>
+            <div className='Qcontainer'>
 
-                    <div className='Qcontent'>
-                        <p style={{ fontSize: 16 }}>تیتیتی یی تیهی هیتهی یتهتیه یتهیتهی یهتیه یهیهتی هتهیتهی یهتیهی هیتهی یهتیهی هیهیه یهایه ییهییه هیهیی هیتتی اهیاهیییی ی یییی ی ی ی یی یی یییی یییی یییی ثثث ثثث اااا ت تتتتت تتتت  تتتتت  تیت تیتی هتیختی </p>
-                    </div>
+                <p style={{ fontSize: 24, fontWeight: 'bold' }}>سوالات متداول کارواش سیار در محل</p>
 
-                    <div style={{width:800 ,  paddingBottom: 20 , textAlign:'right'}}>
-                        <p className="App-intro">
-                            <button className={['QuestionBtn', backBtnImage].join(' ')} onClick={() => this.handleClick('q1')}>{this.state.q1.question}</button>
-                        </p>
-                        <ToggleDisplay show={this.state.q1.show}>  
-                                بله خیلی متشکر خوبم اصلا از این بهتر نمیشود نییی ینی یمیمی یمیی یئمیی ییمی ییمیی ییمدی ییمیدی نیدین یییحنیی یمینی یدیمیی یندی یدیدی
-                        </ToggleDisplay>
-                        <p className="App-intro">
-                            <button className={['QuestionBtn', backBtnImage].join(' ')} onClick={() => this.handleClick('q2')}>{this.state.q2.question}</button>
-                        </p>
-                        <ToggleDisplay show={this.state.q2.show}>    
-                                بله خیلی متشکر خوبم اصلا از این بهتر نمیشود نییی ینی یمیمی یمیی یئمیی ییمی ییمیی ییمدی ییمیدی نیدین یییحنیی یمینی یدیمیی یندی یدیدی
-                        </ToggleDisplay>
-                        <p className="App-intro">
-                            <button className={['QuestionBtn', backBtnImage].join(' ')} onClick={() => this.handleClick('q3')}>سوال اول: سلام حالت چطوره؟</button>
-                        </p>
-                        <ToggleDisplay show={this.state.q3.show}>    
-                                بله خیلی متشکر خوبم اصلا از این بهتر نستسسسنخ ن خننخ نت ختت خ تخ تخنیختیخمیشود نییی ینی یمیمی یمیی یئمیی یییی یی  ی ی یی یی ی یی ی  ی یی ی ی ی ی ییمی ییمیی ییمدی ییمیدی نید
-                        </ToggleDisplay>
-                    </div>
-                    <Buttom btnType='info'>سوالات بیشتر</Buttom>
-
+                <div className='Qcontent'>
+                    <p style={{ fontSize: 16 }}>تیتیتی یی تیهی هیتهی یتهتیه یتهیتهی یهتیه یهیهتی هتهیتهی یهتیهی هیتهی یهتیهی هیهیه یهایه ییهییه هیهیی هیتتی اهیاهیییی ی یییی ی ی ی یی یی یییی یییی یییی ثثث ثثث اااا ت تتتتت تتتت  تتتتت  تیت تیتی هتیختی </p>
                 </div>
 
+                <div style={{ width: 800, paddingBottom: 20, textAlign: 'right' }}>
+
+                    <Que
+                        show={this.state.q1.show}
+                        answer={this.state.q1.answer}
+                        question={this.state.q1.question}
+                        clicked={() => this.handleClick('q1')} />
+                    <Que
+                        show={this.state.q2.show}
+                        answer={this.state.q2.answer}
+                        question={this.state.q2.question}
+                        clicked={() => this.handleClick('q2')} />
+                    <Que
+                        show={this.state.q3.show}
+                        answer={this.state.q3.answer}
+                        question={this.state.q3.question}
+                        clicked={() => this.handleClick('q3')} />
+
+                  
+
+                </div>
+                <Buttom btnType='info'>سوالات بیشتر</Buttom>
             </div>
 
         );

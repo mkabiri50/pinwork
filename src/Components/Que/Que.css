@@ -1,0 +1,15 @@
+.backDownImage{
+    background-image: url('../../assets/buttom/down.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-position: center left;
+    text-align: right;
+}
+
+.backBtnImage{
+    background-image: url('../../assets/buttom/drop.png');
+    
+  background-repeat: no-repeat; 
+  background-position: center left;
+  text-align: right;
+}
