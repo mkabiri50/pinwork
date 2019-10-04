@@ -1,5 +1,6 @@
 * {
   font-family: IRANSans;
+
 }
 
 .App {
@@ -15,7 +16,7 @@
   background: rgba(0, 0, 0, 0.02);
   position: relative;
 }
-/* 
+
 .list {
   list-style-type: disc;
-} */
+} 

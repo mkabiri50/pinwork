@@ -33,7 +33,12 @@
 .info {
   background-color: rgb(0, 188, 212);
   text-align: center;
-
+  margin-bottom: 10px;
+  box-shadow: 0px 5px 13px rgba(0, 188, 212, 0.35)
+}
+.info:hover{
+  
+  box-shadow: 0px 8px 20px rgba(0, 188, 212, 0.25);
 }
 .apple{
   background: #607D8B;
@@ -42,6 +47,7 @@
   height:48px;
   width: 213px;
   background-repeat: no-repeat; 
+  box-shadow: 0px 5px 12px rgba(96, 125, 139, 0.3);
   background-position-y: 5px;
   background-size: contain ;
   text-align: right;
@@ -54,7 +60,7 @@
   background-position: left;
   height:48px;
   width: 213px;
-
+  box-shadow: 0px 5px 15px rgba(101, 160, 4, 0.5);
   background-repeat: no-repeat; 
   background-size: contain ;
   background-position-y: 10px;
@@ -63,8 +69,10 @@
 }
 .android:hover{
   background-position-y: 5px;
+  box-shadow: 0px 8px 20px rgba(101, 160, 4, 0.4);
 }
 .apple:hover{
   background-position-y: 0px;
+  box-shadow: 0px 5px 20px rgba(96, 125, 139, 0.3);
 }
 

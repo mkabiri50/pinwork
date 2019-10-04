@@ -56,7 +56,7 @@ class Question extends Component {
                     <p style={{ fontSize: 16 }}>تیتیتی یی تیهی هیتهی یتهتیه یتهیتهی یهتیه یهیهتی هتهیتهی یهتیهی هیتهی یهتیهی هیهیه یهایه ییهییه هیهیی هیتتی اهیاهیییی ی یییی ی ی ی یی یی یییی یییی یییی ثثث ثثث اااا ت تتتتت تتتت  تتتتت  تیت تیتی هتیختی </p>
                 </div>
 
-                <div style={{ width: 800, paddingBottom: 20, textAlign: 'right' }}>
+                <div style={{ width: 800, paddingBottom:20, textAlign: 'right',display:'flex', flexDirection:'column'}}>
 
                     <Que
                         show={this.state.q1.show}

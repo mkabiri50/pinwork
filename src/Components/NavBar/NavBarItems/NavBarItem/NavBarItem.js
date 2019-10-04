@@ -1,13 +1,22 @@
 import React from 'react';
 import  './NavBarItem.css';
 import {NavLink} from 'react-router-dom';
-const NavBarItem = (props) => (
-   <li className='NavBarItem'> 
-   <NavLink 
-    to ={props.link} 
-    exact
-    activeClassName='active'>
-  {props.children }</NavLink>
-</li>
-);
+const NavBarItem = (props) =>{
+let classNav= "NavBarItem";
+
+if(props.activeJoon){
+
+  classNav= "activelink NavBarItem"
+}
+
+  return(<li className={classNav}> 
+  <NavLink 
+   to ={props.link} 
+   exact
+   activeClassName='active'
+   
+>
+ {props.children }</NavLink>
+</li>)
+} 
 export default NavBarItem;  

@@ -1,13 +1,36 @@
 .NavBarItems {
-   margin: 0;
-   padding: 0;
-   list-style: none;
-   display: flex;
-   flex-flow: row;
-   align-items: center;
-   height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  height: 100%;
 }
-.Right{
-   display: flex;
-   flex-direction: row;
+.Right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  height: 72px;
+}
+.Right ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center
+  
+}
+.Pinwork-Logo{
+  height: 80%;
+  margin: 0
+}
+@media(max-width:800px){
+   .Pinwork-Logo{
+       display: none;
+   }
+   .Right{
+     flex-direction: column;
+   }
  }

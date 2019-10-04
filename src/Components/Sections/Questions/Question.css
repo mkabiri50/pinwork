@@ -1,42 +1,36 @@
-.Qcontainer{
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color: #fff;
-width:100%;
-
-
-text-align: center
-
+.Qcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
 }
 
-.Qcontent{
-    margin: 24px 240px;
-
-
-    
+.Qcontent {
+  margin: 24px 240px;
 }
-.QuestionBtn{
-    background-color:#fff;
-    height:48px;
-    width: 800px;
-    border-left: none;
-    border-right: none;
-    border-top:  none;
-   border-bottom:   1px solid rgba(210, 210, 210, 0.64);
-
-    color:black;
-    text-align: center;
-
+.QuestionBtn {
+  background-color: #fff;
+  height: 48px;
+  width: 800px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid rgba(210, 210, 210, 0.64);
+  color: black;
+  text-align: center;
 }
-button.launch{
-    border:none;
+button.launch {
+  border: none;
 }
-button.change.change{
-    border:none;
+button.change.change {
+  border: none;
 }
 button:active {
-    outline: none;
-    border: none;
-    }
-    button:focus {outline:0;}
+  outline: none;
+  border: none;
+}
+button:focus {
+  outline: 0;
+}

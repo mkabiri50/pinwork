@@ -1,12 +1,13 @@
 import React from 'react';
 import Scs from '../../StuffCarts/Scs/Scs';
+import './BestStuff.css';
 const BestStuff =()=>{
     return(
-        <div style={{ backgroundColor: 'white', width: '100%', height: 500, position: 'relative',  textAlign: 'center', }}>
-        <p style={{ fontSize: 24, lineHeight: ' 200%', paddingTop:10 }}>
+        <div className='Best-Stuff-Container'>
+        <p className='Best-Stuff-Title '>
           با بهترین نیرو های متخصص ما آشنا شوید
      </p>
-        <p style={{ fontSize: 16, lineHeight: ' 200%', paddingBottom:10 }} >
+        <p className='Best-Stuff-Content ' >
           تیییتی ححثبننب بنبنب بکه لازم است برای شرایت مئرد نیاز و کاربرد های متنوع با هدف بهبود شرایط کاربردی تیتتیینی نننیییمی ننینینینن ننیننیمم ننینینین ننینیین
      </p>
         <div>

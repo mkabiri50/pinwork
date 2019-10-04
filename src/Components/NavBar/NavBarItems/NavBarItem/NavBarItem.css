@@ -19,6 +19,14 @@
     color: #40a4cb;
     
 }
+
+.activelink{
+    border-bottom: 1px solid black;
+  padding:1px
+}
+.activelink a {
+    padding-bottom: 2px!important;
+}
 @media (min-width :500px){
     .NavBarItem{
         margin: 0;
