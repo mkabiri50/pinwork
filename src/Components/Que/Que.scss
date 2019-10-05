@@ -22,7 +22,7 @@
 
 
 
- .backDownImage{
+  .backDownImage{
     background-image: url('../../assets/buttom/down.png');
     background-repeat: no-repeat; 
     background-position: center;
@@ -46,9 +46,10 @@
   background-color: #fff;
   height: 48px;
   width: 800px;
-border: none;
+// border: none;
+// box-shadow: none;
   color: black;
 margin-bottom: 50px;
-z-index: 200px;
+
 
 } 

@@ -17,10 +17,10 @@ const Download = () => {
            </p>
             </div >
             <div style={{ textAlign: 'right' }}>
-            <Buttom btnType='apple'> ios دانلود نسخه </Buttom>
-            <Buttom btnType='android'> android دانلود نسخه</Buttom>
+              <Buttom btnType='apple'> ios دانلود نسخه </Buttom>
+              <Buttom btnType='android'> android دانلود نسخه</Buttom>
             </div>
-           
+
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import  './NavBarItem.css';
+import  './NavBarItem.scss';
 import {NavLink} from 'react-router-dom';
 const NavBarItem = (props) =>{
 let classNav= "NavBarItem";

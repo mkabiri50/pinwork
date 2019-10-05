@@ -1,5 +1,5 @@
 import React from 'react';
-import './Cart.css';
+import './Cart.scss';
 
 const Cart = (props) => {
     const obj = props.image

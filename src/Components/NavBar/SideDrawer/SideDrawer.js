@@ -2,7 +2,7 @@ import React from 'react';
 import NavBarItemsl from  '../NavBarItems/NavBarItemsL';
 import NavBarItemsR from '../NavBarItems/NavigationItemsR';
 import Logo from '../../Ui/logo/logo';
-import './SideDrawer.css';
+import './SideDrawer.scss';
 import Bachdrop from './../../Ui/Backdrop/Backdrop';
 const sideDrawer = (props) => {
     let attachedClasses = ['SideDrawer', 'Close'];

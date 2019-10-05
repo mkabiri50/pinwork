@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Carts.css'
+import './Carts.scss'
 import Cart from './Cart/Cart'
 import data from '../../../assets/json/data.json'
 

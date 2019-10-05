@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Scs.css';
+import './Scs.scss';
 import Sc from './Sc/Sc';
 import data from '../../../assets/json/profileData.json'
 

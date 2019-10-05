@@ -1,5 +1,5 @@
 import React from 'react';
-import  './DrawerToggle.css';
+import  './DrawerToggle.scss';
 const draewrToggle = (props) => (
     <div className='DrawerToggle' onClick={props.clicked}>
         <div></div>

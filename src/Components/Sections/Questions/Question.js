@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import './Question.css';
+import './Question.scss';
 import Buttom from '../../Ui/Button/Button';
 import Que from '../../Que/Que';
 class Question extends Component {

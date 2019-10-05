@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import ToolBar from './Components/NavBar/ToolBar/ToolBar';
 import What from './Components/Sections/What/Waat';
 import Why from './Components/Sections/Why/Why';

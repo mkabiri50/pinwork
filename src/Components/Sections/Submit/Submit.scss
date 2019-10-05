@@ -1,0 +1,25 @@
+.SubmitContainer {
+    background: #e5e5e5;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    margin-top: 24px;
+  }
+  
+  .SubmitDoc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 50px;
+  }
+  
+  .SubmitDoc ul {
+    margin-right: 109px;
+    text-align: right;
+    list-style-type: none;
+  }
+  .SubmitDoc li:before {
+    content: "- ";
+  }
+  

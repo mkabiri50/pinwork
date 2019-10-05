@@ -1,5 +1,5 @@
 import React from 'react';
-import './NavBarItemsL.css';
+import './NavBarItemsL.scss';
 import NavigationItem from './NavBarItem/NavBarItem';
 import Badge from '../../../assets/logo/Ellipse.png';
 

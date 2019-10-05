@@ -1,6 +1,6 @@
 import React from 'react';
 import pnLogo from '../../../assets/logo/Logo.png';
-import './Logo.css';
+import './Logo.scss';
 const logo = (props) =>(
     <div className='Pinwork-Logo'>
         <img className='backImage' src ={pnLogo} alt = 'MyBurger' />

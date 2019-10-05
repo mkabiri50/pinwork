@@ -1,5 +1,5 @@
 import React from 'react';
-import './Sc.css';
+import './Sc.scss';
 import StarRatings from 'react-star-ratings';
 const Cart = (props) => {
     const obj = props.image

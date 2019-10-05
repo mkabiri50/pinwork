@@ -1,12 +1,12 @@
 import React from 'react';
 import Form from '../../Form/Form';
-import './What.css';
+import './What.scss';
 const What = () => {
   return (
     <div className='WhatContainer'>
       <div className='WhatTitr'>
-        <p style={{ fontSize: '1em', fontWeight: 'bold', padding:0, margin:0 }}> از تخصص و مهارت خود کسب درامد کنید </p>
-        <p style={{ fontSize: '.5em', lineHeight: '120%', paddingBottom: 14,margin:10 }}>  با امکان کسب دامد بیش از سی ملیون ریال در ماه</p>
+        <p style={{ fontSize: '.5em', fontWeight: 'bold', padding:0, margin:0 }}> از تخصص و مهارت خود کسب درامد کنید </p>
+        <p style={{ fontSize: '.3em', lineHeight: '120%', paddingBottom: 14,margin:10 }}>  با امکان کسب دامد بیش از سی ملیون ریال در ماه</p>
       </div>
       <div className='BackImage'>
         <Form />

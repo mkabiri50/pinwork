@@ -1,6 +1,6 @@
 import React from 'react';
 import Scs from '../../StuffCarts/Scs/Scs';
-import './BestStuff.css';
+import './BestStuff.scss';
 const BestStuff =()=>{
     return(
         <div className='Best-Stuff-Container'>
