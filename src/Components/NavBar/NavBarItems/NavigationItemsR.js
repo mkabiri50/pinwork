@@ -9,9 +9,7 @@ const navigationItemsR = (props) => (
             <NavigationItem link='/Web' exact={props.exact}> وبلاگ</NavigationItem>
             <NavigationItem link='/All' > همه خدمات </NavigationItem>
         </ul>
-        <div className='Pinwork-Logo'>
-            <Logo />
-        </div>
+     
 
     </div>
 

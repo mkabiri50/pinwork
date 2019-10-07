@@ -1,9 +1,19 @@
+@mixin dis-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+
 .DlContainer {
-    display: flex;
-    flex-direction: row;
-    width: 100px;
-    justify-content: center;
-    padding: 10px 50px 80px 50px;
-  
-  }
-  
+  @include dis-row;
+  width: 100%;
+  padding: 10px 50px 80px 50px;
+  background-color: #e5e5e5;
+  padding: 30px 50px 50px 50px;
+}
+.mobile-App-container{
+
+width: 40%;
+}

@@ -1,8 +1,14 @@
-.Best-Stuff-Container {
+@mixin dis-col {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Best-Stuff-Container {
+    @include dis-col;
     background: #ffffff;
-    text-align: center;
+
   }
   
   .Best-Stuff-Title {

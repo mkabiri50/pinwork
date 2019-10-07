@@ -19,19 +19,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    align-content: center
+    align-content: center;
+    @media(max-width:800px){
+      flex-direction: column
+    }
     
   }
-  .Pinwork-Logo{
-    height: 80%;
-    margin: 0
-  }
-  @media(max-width:800px){
-    //  .Pinwork-Logo{
-    //      display: none;
-    //  }
-     .Right{
-        flex-direction: column
-     }
-   }
+ 
+ 
   

@@ -1,25 +1,18 @@
-
-.Badge{
-    position: absolute;
-   top:12px;
-  left:22.5%;
-  
-  }
-  .Line{
-    position: absolute;
-    top:45px;
-    left: 0%;
-  }
-.Left{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-@media(max-width:800px){
-.Badge{
+.Badge {
+  position: absolute;
+  top: 12px;
+  left: 145px;
+  @media (max-width: 800px) {
       display: none;
   }
-  .Left{
-    flex-direction: column
+}
+
+.Left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  @media (max-width: 800px) {
+    flex-direction: column;
   }
 }
+

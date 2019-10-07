@@ -1,23 +1,43 @@
+$Myfont:IRANSans;
+$myback-color:rgba(0, 0, 0, 0.02);
+@mixin dis-col {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin dis-row {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
 * {
-    font-family: IRANSans;
+    font-family: $Myfont;
   
   }
   
   .App {
+    @include dis-col;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.02);
+  
+    background: $myback-color;
     position: relative;
   }
   
-  .list {
-    list-style-type: disc;
-  } 
+
   

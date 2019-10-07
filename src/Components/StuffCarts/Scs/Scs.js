@@ -16,7 +16,8 @@ class Carts extends Component{
                 name={p.name} 
                 image={p.image}
                 content={p.content} 
-                rating={p.rating} />
+                rating={p.rating}
+                number={p.number} />
         )));
         
         
